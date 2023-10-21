@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--No translation-->
+
+    <string name="app_name" translatable="false">Moca futbol</string>
+    <string name="img_content_description" translatable="false">Moca futbol + - Live Football App _ Fútbol Libre- Ao Vivo Play _ Yacine Tv _ en vivo _ Dedo Tractor Full Play App _ Frecuencia Full Play - Assistir online TV - Live Football TV - En Vivo Fútbol tele latino _ movies _ series _ drama _ live tv _ envivo </string>
+    <string name="my_onesignal_id" translatable="false">7db77659-5663-4153-a8d9-210197c99954</string>
+    <string name="my_flurry_id" translatable="false">3D74C4QG2SSH9VHKPD39</string>
+
+    <string name="my_admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="my_applovin_sdk_key" translatable="false">9oWWwxq8iefzNGeTmi6PCIopdJ44nkNN2HvpHFcOI_G_-IKQx2np3T9u_h0r3MC8uNLBJbu_yI1Nn9MeiM8qbg</string>
+    <string name="txt_ad" translatable="false">Ad</string>
+    <string name="txt_advertiser" translatable="false">Advertiser</string>
+    <string name="my_sub_about_thecopyright" translatable="false">All copyright reserved to their owners</string>
+
+    <string name="share_app_message" translatable="false">here is a wonderful app to watch live football and movies and live tv</string>
+
+    <!--Translation-->
+    <string name="moc_frag_recent">Recent</string>
+    <string name="moc_frag_category">Category</string>
+    <string name="moc_frag_favorite">Favorite</string>
+    <string name="moc_frag_settings">Settings</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="share_title">I am live streaming</string>
+
+    <string name="msg_share_content">I Would like to share this App with you. Here You Can Download This Application from PlayStore</string>
+
+    <string name="pobr_whop">Whoops!</string>
+
+
+    <string name="network_needed">Internet Required to Stream the Channel!</string>
+
+
+    <string name="connect_internet_msg">No internet connection, please connect your phone to the internet to continue using this application.</string>
+
+    <string name="no_category_found">Oops, No category found!</string>
+    <string name="no_post_found">it looks like there are no channel available at this time</string>
+    <string name="no_search_found">No channel found! if you want to continue the search, please try enter another keyword!</string>
+    <string name="msg_search_input">Please Insert a valid Keyword</string>
+
+    <string name="failed_text"> Something wrong with your network or the server is currently down, please try again later.</string>
+    <string name="msg_failed">Failed to load the stream, probably the stream server currently down!</string>
+
+
+    <string name="msg_cancel_update">Update canceled</string>
+    <string name="msg_success_update">Update success!</string>
+    <string name="msg_failed_update">Update Failed!</string>
+
+    <string name="msg_oops">Whoops!</string>
+
+    <string name="option_retry">Retry</string>
+    <string name="option_ok">OK</string>
+    <string name="option_no">No</string>
+    <string name="favorite_added">Added to Favorite</string>
+    <string name="favorite_removed">Removed from Favorite</string>
+    <string name="no_favorite_found">Your favorite list is empty because you don\'t add any channel in the favorite menu</string>
+    <string name="option_set_favorite">Add Favorite</string>
+    <string name="option_unset_favorite">Remove Favorite</string>
+    <string name="option_set_share">Share</string>
+    <string name="option_set_quick_play">Quick Play</string>
+    <string name="press_again_to_exit">Press again to exit app</string>
+    <string name="press_again_to_close_player">Press again to close player</string>
+
+    <string name="title_setting_list">Display Channel</string>
+    <string name="single_choice_default">List</string>
+    <string name="single_choice_grid2">Grid (2 column)</string>
+    <string name="single_choice_grid3">Grid (3 column)</string>
+    <string name="title_setting_category">Display Category</string>
+    <string name="single_choice_list">List</string>
+    <string name="single_choice_grid_2">Grid (2 column)</string>
+    <string name="single_choice_grid_3">Grid (3 column)</string>
+    <string name="title_setting_player">Player Mode</string>
+    <string name="player_portrait">Portrait</string>
+    <string name="player_landscape">Landscape</string>
+    <string name="title_setting_privacy">Privacy Policy</string>
+
+    <string name="title_set_rate">Rate Us</string>
+    <string name="title_set_more">More Apps</string>
+    <string name="title_set_about">About</string>
+
+    <string name="pobr_setting_about">App Info, Build Version, Copyright</string>
+    <string name="pobr_app_version">Version</string>
+    <string name="pobr_setting_more">More apps from developer</string>
+    <string name="pobr_setting_rate">Leave a review on the Google Play</string>
+    <string name="pobr_setting_privacy">App Terms &amp; Policies</string>
+
+
+    <string name="red_title">New App Updates</string>
+    <string name="red_message">This application has expired and is no longer used, press the button below to download and install the latest update of this application.</string>
+    <string name="red_button">Download Update Now</string>
+
+    <string name="screen_soon_title">Our Servers are down</string>
+    <string name="screen_soon_message">Our server are experiencing some technical problem, we should be up and running again in a couple of minutes. meanwhile checkout some of our other apps that you may enjoy.</string>
+    <string name="screen_soon_button">More Apps (AD)</string>
+    <string name="txt_suggested">Suggested :</string>
+
+
+    <!-- Dialog title -->
+    <string name="google_verification_dialog_title" translatable="false" >Untrusted Installation Detected</string>
+
+    <!-- Dialog message -->
+    <string name="google_verification_dialog_message" translatable="false">It seems you have downloaded this app from an untrusted source. For your security and to ensure you receive genuine updates, please download the app from the Play Store or a trusted distributor.</string>
+
+    <!-- Positive button label -->
+    <string name="external_player_dialog_install" translatable="false">Go to Play Store</string>
+
+    <!-- Negative button label -->
+    <string name="dialog_cancel" translatable="false">Exit</string>
+
+</resources>

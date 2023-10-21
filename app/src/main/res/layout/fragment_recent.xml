@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:shimmer_duration="1000">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp">
+
+                    <include
+                        android:id="@+id/lyt_shimmer_channel_list"
+                        layout="@layout/rob_shimmer_channel_list" />
+
+                    <include
+                        android:id="@+id/lyt_shimmer_channel_grid2"
+                        layout="@layout/rob_shimmer_channel_grid2" />
+
+                    <include
+                        android:id="@+id/lyt_shimmer_channel_grid3"
+                        layout="@layout/rob_shimmer_channel_grid3" />
+
+                </RelativeLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:scrollingCache="true" />
+
+            <include
+                android:id="@+id/lyt_no_item_home"
+                layout="@layout/rob_no_item"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/lyt_failed_home"
+                layout="@layout/rob_failed"
+                android:visibility="gone" />
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/adContainer"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <include layout="@layout/banner_loader" />-->
+
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/adHolder"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:visibility="gone"-->
+<!--                    app:layout_constrainedHeight="true"-->
+<!--                    app:layout_constrainedWidth="true" />-->
+
+<!--            </LinearLayout>-->
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout_category"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:shimmer_duration="1000">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp">
+
+                    <include
+                        android:id="@+id/lyt_shimmer_category_list"
+                        layout="@layout/rob_shimmer_category_list" />
+
+                    <include
+                        android:id="@+id/lyt_shimmer_category_grid2"
+                        layout="@layout/rob_shimmer_category_grid2" />
+
+                    <include
+                        android:id="@+id/lyt_shimmer_category_grid3"
+                        layout="@layout/rob_shimmer_category_grid3" />
+
+                </RelativeLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:scrollbars="none"
+                android:scrollingCache="true" />
+
+            <include
+                android:id="@+id/lyt_no_item_category"
+                layout="@layout/rob_no_item"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/lyt_failed_category"
+                layout="@layout/rob_failed"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/nativecateg"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="4dp">-->
+
+<!--        <include layout="@layout/native_loader" />-->
+
+
+<!--        <com.facebook.ads.NativeAdLayout-->
+<!--            android:id="@+id/fan_native_ad_container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:visibility="gone" />-->
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/applovin_native_ad_container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:visibility="gone" />-->
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>
+

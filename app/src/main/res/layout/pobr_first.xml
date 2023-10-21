@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_second_next"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:gravity="center"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:fontFamily="@font/bre_font_bold"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <include layout="@layout/native_loader" />
+
+                <com.facebook.ads.NativeAdLayout
+                    android:id="@+id/fan_native_ad_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/applovin_native_ad_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_second_next"
+        style="@style/MaterialButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btn_policy"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
+        android:text="START"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_policy"
+        style="@style/MaterialButtonStylePrivacy"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/baaneradContainer"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/title_setting_privacy"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/baaneradContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/banner_loader" />
+
+        <FrameLayout
+            android:id="@+id/banneradHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+           />
+
+    </LinearLayout>
+
+</RelativeLayout>

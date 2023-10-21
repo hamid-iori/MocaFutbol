@@ -1,0 +1,30 @@
+<resources>
+
+    <dimen name="grid_space_channel">6dp</dimen>
+    <dimen name="grid_space_category">6dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+    <dimen name="recycler_view_padding">3dp</dimen>
+
+    <dimen name="list_image_width">250dp</dimen>
+    <dimen name="list_image_height">250dp</dimen>
+
+    <dimen name="text_title_size">15sp</dimen>
+    <dimen name="text_sub_title_size">13sp</dimen>
+    <dimen name="text_content_title_size">18sp</dimen>
+    <dimen name="text_content_sub_title_size">14sp</dimen>
+
+    <dimen name="corner_radius">8dp</dimen>
+
+
+    <dimen name="applovin_banner_height">50dp</dimen>
+    <dimen name="gnt_text_size_small">12sp</dimen>
+    <dimen name="gnt_ad_indicator_width">24dp</dimen>
+    <dimen name="gnt_ad_indicator_height">19dp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10sp</dimen>
+
+    <dimen name="item_post_padding_medium">14dp</dimen>
+    <dimen name="item_post_padding_small">7dp</dimen>
+    <dimen name="post_primary_font_size">16sp</dimen>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_recent"
+        android:icon="@drawable/moca_recent"
+        android:title="@string/moc_frag_recent" />
+
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/moca_category"
+        android:title="@string/moc_frag_category" />
+
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/moca_favorites"
+        android:title="@string/moc_frag_favorite" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/moca_settings"
+        android:title="@string/moc_frag_settings" />
+
+</menu>

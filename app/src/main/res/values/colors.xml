@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#060E45</color>
+    <color name="purple_500">#091461</color>
+    <color name="purple_700">#0C1760</color>
+    <color name="teal_200">#0B1453</color>
+    <color name="teal_700">#091461</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#06105A</color>
+
+    <color name="colorShimmer">#BCBEC1</color>
+
+    <color name="grey_soft">#F5F5F5</color>
+    <color name="grey">#FF2C2B2B</color>
+
+    <color name="player_background">#CC000000</color>
+    <color name="colorBackgroundLight">#FFFFFF</color>
+
+    <!--Ads-->
+    <color name="ads_color">#0D1867</color>
+    <color name="gnt_ad_grey">#939393</color>
+
+    <color name="color_native_background_light">#FFFFFF</color>
+</resources>

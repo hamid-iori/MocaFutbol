@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:name="com.moca.futbol.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyStream"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.moca.futbol.activitymoca.SplashMoc"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.moca.futbol.activitymoca.SecMoc"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:noHistory="true"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.ThirdMoc"
+            android:noHistory="true"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.moca.futbol.activitymoca.InternPlayerMoc"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.SearchMoc"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.DetailChannelMoc"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.DetCategoryMoc"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.ServerMoc"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.RedMoc"
+            android:exported="false" />
+        <activity
+            android:name="com.moca.futbol.activitymoca.PhpPlayerMoc"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="@string/my_applovin_sdk_key" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/my_admob_app_id" />
+
+    </application>
+
+</manifest>
